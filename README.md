@@ -1,8 +1,17 @@
 # NuScenes Lidar Visualized in PCL Visualizer
 
-Quick and simple visualizer of NuScenes LIDAR_TOP sweeps in PCL. Tested on Ubuntu 18.04.
+Quick and simple visualizer of NuScenes LIDAR_TOP sweeps in C++ with PCL. 
 
-## Build:
+## Dependencies
+Tested on Ubuntu 18.04.
+
+Required system libs:
+- JsonCpp
+- YamlCpp
+- PCL 
+
+## Build
+CMake based:
 ```
 mkdir build
 cd build
@@ -15,3 +24,4 @@ Edit `config.yaml` to point to your [NuScenes dataset](https://www.nuscenes.org/
 ```
 ./nuscenes_pcl_viz ../config.yaml
 ```
+Press `n` to switch between scenes. And default `h` key for help (PCLVisualizer).
