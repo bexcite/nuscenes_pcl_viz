@@ -25,3 +25,5 @@ Edit `config.yaml` to point to your [NuScenes dataset](https://www.nuscenes.org/
 ./nuscenes_pcl_viz ../config.yaml
 ```
 Press `n` to switch between scenes. And default `h` key for help (PCLVisualizer).
+
+![Viewer](./images/nuscenes_pcl_viz.gif)
